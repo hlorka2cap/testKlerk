@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import config from './config.js'
 export default {
     data() {
         return {
@@ -41,7 +40,7 @@ export default {
                         'Новости для бухгалтеров, ИП и директора',
                         'Подборка статей за день'
                     ],
-                    pathToImage: `${config.imagePath}mailing1.png`,
+                    pathToImage: `/images/mailing1.png`,
                     mailingCounter: 0,
                     id: 1,
                     isOn: false
@@ -54,7 +53,7 @@ export default {
                         'Анализ, оценка и только самое главное',
                         'Лучшие комменты юзеров в обзоре'
                     ],
-                    pathToImage: '.././assets/images/mailing2.png',
+                    pathToImage: `/images/mailing2.png`,
                     mailingCounter: 0,
                     id: 2,
                     isOn: false
@@ -67,7 +66,7 @@ export default {
                         'Акции и скидки от лидеров рынка',
                         'Те, кто подписался – экономят много денег'
                     ],
-                    pathToImage: '.././assets/images/mailing3.png',
+                    pathToImage: `/images/mailing3.png`,
                     mailingCounter: 0,
                     id: 3,
                     isOn: false
@@ -80,7 +79,7 @@ export default {
                         'Никогда не пришлем платные вебинары',
                         'Подборка топовых тем для вебинаров'
                     ],
-                    pathToImage: '.././assets/images/mailing4.png',
+                    pathToImage: `/images/mailing1.png`,
                     mailingCounter: 0,
                     id: 4,
                     isOn: false
